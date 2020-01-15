@@ -8,9 +8,9 @@ curl -X POST http://localhost:8083/connectors -H "Content-Type: application/json
         "name": "jdbc_source_sql_01",
         "config": {
                 "connector.class": "io.confluent.connect.jdbc.JdbcSourceConnector",
-                "connection.url": "jdbc:sqlserver://DCBBS032DV001.e-unicred.com.br:1433;databaseName=DBUNIPUSH_TST",
-                "connection.user": "dbpus_user",
-                "connection.password": "B36233656362336563623U63626335",
+                "connection.url": "",
+                "connection.user": "",
+                "connection.password": "",
                 "topic.prefix": "sql_server_topic_",
                 "mode":"bulk"
                 }
